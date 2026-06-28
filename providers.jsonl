@@ -1,5 +1,5 @@
-{"provider":"openai","name":"OpenAI","api_type":"openai-chat","api_base":"https://api.openai.com/v1","key_env":"OPENAI_API_KEY","models_endpoint":"/models","models":["gpt-4o","gpt-4o-mini"]}
-{"provider":"anthropic","name":"Anthropic","api_type":"anthropic","api_base":"https://api.anthropic.com/v1","key_env":"ANTHROPIC_API_KEY","models_endpoint":"/models","models":["claude-sonnet-4-20250514"]}
+{"provider":"openai","name":"OpenAI","api_type":"openai-chat","api_base":"https://api.openai.com/v1","key_env":"OPENAI_API_KEY","models_endpoint":"/models"}
+{"provider":"anthropic","name":"Anthropic","api_type":"anthropic","api_base":"https://api.anthropic.com/v1","key_env":"ANTHROPIC_API_KEY","models_endpoint":"/models"}
 {"provider":"google","name":"Google Gemini","api_type":"google","api_base":"https://generativelanguage.googleapis.com/v1beta","key_env":"GOOGLE_API_KEY","models_endpoint":"/models"}
 {"provider":"cohere","name":"Cohere","api_type":"cohere","api_base":"https://api.cohere.ai/v1","key_env":"COHERE_API_KEY","models_endpoint":"/models"}
 {"provider":"deepseek","name":"DeepSeek","api_type":"openai-chat","api_base":"https://api.deepseek.com/v1","key_env":"DEEPSEEK_API_KEY","models_endpoint":"/models"}
@@ -18,4 +18,4 @@
 {"provider":"cerebras","name":"Cerebras","api_type":"openai-chat","api_base":"https://api.cerebras.ai/v1","key_env":"CEREBRAS_API_KEY","models_endpoint":"/models"}
 {"provider":"sambanova","name":"SambaNova","api_type":"openai-chat","api_base":"https://api.sambanova.ai/v1","key_env":"SAMBANOVA_API_KEY","models_endpoint":"/models"}
 {"provider":"deepinfra","name":"DeepInfra","api_type":"openai-chat","api_base":"https://api.deepinfra.com/v1","key_env":"DEEPINFRA_API_KEY","models_endpoint":"/models"}
-{"provider":"ollama","name":"本地 Ollama","api_type":"openai-chat","api_base":"http://localhost:11434/v1","models_endpoint":"/api/tags","models":["qwen2.5:14b","llama3.2"]}
+{"provider":"ollama","name":"本地 Ollama","api_type":"openai-chat","api_base":"http://localhost:11434/v1","models_endpoint":"/api/tags"}

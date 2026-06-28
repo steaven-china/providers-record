@@ -20,12 +20,11 @@ Each JSONL line is a `ProviderSource`:
   "api_type": "openai-chat",
   "api_base": "https://api.openai.com/v1",
   "key_env": "OPENAI_API_KEY",
-  "models_endpoint": "/models",
-  "auth_header": "Authorization",
-  "version_header": null,
-  "models": ["gpt-4o", "gpt-4o-mini"]
+  "models_endpoint": "/models"
 }
 ```
+
+Models are discovered at runtime by querying `models_endpoint` rather than being hard-coded in the registry, since model lists change frequently.
 
 ### `api_type` values
 
